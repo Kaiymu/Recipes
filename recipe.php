@@ -22,12 +22,10 @@
 			// label = text displayed
 			// url = template url (put <name> where the search term
 			//       goes, it will be auto-added later)
-			let yelpLocation = 'Bloomfield, NJ';  // no need for fancy formatting, just do it like this
 			let helpUrls = [
 			  { label: 'Image search', url: 'https://www.google.com/search?q=' + '<name>' + '&tbm=isch' },
 			  { label: 'Serious Eats', url: 'https://www.seriouseats.com/search?q=' + '<name>' + '&site=recipes' },
 			  { label: 'More recipes', url: 'https://www.google.com/search?q=' + '<name>' + '+recipe'},
-			  { label: 'Yelp (takeout pls)', url: 'https://www.yelp.com/search?find_loc=' + yelpLocation + '&find_desc=' + '<name>' }
 			];
 
 			// look in a folder called 'images' for an image to display
