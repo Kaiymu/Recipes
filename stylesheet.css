@@ -70,7 +70,7 @@ p::first-letter, #ingredients li::first-letter, #steps li::first-letter, #notes 
 }
 #ingredients p, #steps p, #notes p, #basedon p {
   font-weight: 700;
-  margin:      1.1em 0 0.6em 0;
+  margin:      1.3em 0 0.6em 0;
 }
 #toc li {
   text-transform: capitalize;
@@ -82,6 +82,11 @@ ol {
 }
 ol li {
   margin-left: 1.05em;
+}
+
+/* Adding spacing for the steps */
+#steps li:not(:last-child) { 
+  margin-bottom: 1em;
 }
 
 #notes ul, #help ul, #basedon ul, #toc ul {

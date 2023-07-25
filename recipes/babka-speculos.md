@@ -1,8 +1,8 @@
 # Babka speculos
 
 ## info  
-* About XX minutes  
-* X servings as part of a meal with other dishes  
+* 2h00 de préparation, 30 minutes de cuisson
+* 8 parts
 
 ## ingredients
 * 200gr warm milk (max 32/35°c)

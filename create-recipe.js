@@ -116,6 +116,10 @@ $(document).ready(function() {
       help += '</ul>';
       $('#help').html(help);
 
+        str = str.replace(/\(([^)]+)\)/g, '<span class="paren">($1)</span>');
+        $(this).html(str);
+      });
+
       // click a step to highlight it
       $('#steps li').click( function() {
         if ( $(this).hasClass('highlight') ) {
