@@ -160,6 +160,12 @@ a:active, a:hover {
   color:      rgb(170,170,170);
   font-style: italic;
 }
+
+.paren-highlight{
+  color:      rgb(70, 62, 62);
+  font-weight: bold;
+}
+
 #back {
   margin-top:    -0.6em;
   margin-bottom: 0.6em;

@@ -52,7 +52,7 @@
 	<!-- combo php/js to get all recipes in the folder -->
 	<script>
 		<?php $files = array_map('basename', glob('recipes/*.md')); ?>
-  	let files = <?php echo json_encode($files) ?>;
+  		let files = <?php echo json_encode($files) ?>;
 	</script>
 	
 	<!-- javascript does the rest :) -->

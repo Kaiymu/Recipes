@@ -84,8 +84,7 @@ $(document).ready(function() {
         });
       }
 
-      // in the ingredients, make things in parentheses a
-      // bit lighter
+      // in the ingredients, make things in parentheses a bit lighter
       $('#ingredients li').each( function() {
         let str = $(this).text();
         str = str.replace(/\(([^)]+)\)/g, '<span class="paren">($1)</span>');
@@ -119,6 +118,7 @@ $(document).ready(function() {
       $('#steps li').each( function() {
         let str = $(this).text();
         str = str.replace(/\(([^)]+)\)/g, '<span class="paren">($1)</span>');
+        str = str.replace(/\[(.*?)\]/, '<span class="paren-highlight">[$1]</span>');
         $(this).html(str);
       });
 
