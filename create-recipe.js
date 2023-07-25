@@ -116,6 +116,8 @@ $(document).ready(function() {
       help += '</ul>';
       $('#help').html(help);
 
+      $('#steps li').each( function() {
+        let str = $(this).text();
         str = str.replace(/\(([^)]+)\)/g, '<span class="paren">($1)</span>');
         $(this).html(str);
       });
