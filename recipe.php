@@ -23,9 +23,9 @@
 			// url = template url (put <name> where the search term
 			//       goes, it will be auto-added later)
 			let helpUrls = [
-			  { label: 'Image search', url: 'https://www.google.com/search?q=' + '<name>' + '&tbm=isch' },
-			  { label: 'Serious Eats', url: 'https://www.seriouseats.com/search?q=' + '<name>' + '&site=recipes' },
-			  { label: 'More recipes', url: 'https://www.google.com/search?q=' + '<name>' + '+recipe'},
+			  { label: 'Recherche par image', url: 'https://www.google.com/search?q=' + '<name>' + '&tbm=isch' },
+			  { label: 'Marmiton', url: 'https://www.marmiton.org/recettes/recherche.aspx?aqt=' + '<name>' },
+			  { label: 'Plus de recettes', url: 'https://www.google.com/search?q=' + '<name>' + '+recipe'},
 			];
 
 			// look in a folder called 'images' for an image to display
@@ -38,7 +38,7 @@
 
 			// turn text-only urls to links in these sections
 			// (in other sections, markdown links will work as normal)
-			let autoUrlSections = [ 'basedon' ];
+			let autoUrlSections = [ 'basedon', 'ingredients'];
 
 			// trim display text for long urls in 'based on' section
 			// ex:           https://www.seriouseats.com/recipes/2012/01/aloo-matar.html

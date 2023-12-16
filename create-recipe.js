@@ -65,6 +65,11 @@ $(document).ready(function() {
 
         // make any urls (in sections listed at the top)
         // that don't have link syntax into valid urls
+        console.log(id);
+
+        for(var i = 0; i < autoUrlSections.lenght; i++) {
+            console.log(i +" test")
+        }
         if (autoUrlSections.includes(id)) {
           section = linkify(section);
         }
@@ -118,7 +123,7 @@ $(document).ready(function() {
       $('#steps li').each( function() {
         let str = $(this).text();
         str = str.replace(/\(([^)]+)\)/g, '<span class="paren">($1)</span>');
-        str = str.replace(/\[(.*?)\]/, '<span class="paren-highlight">[$1]</span>');
+        str = str.replace(/\[(.*?)\]/g, '<span class="paren-highlight">$1</span>');
         $(this).html(str);
       });
 
