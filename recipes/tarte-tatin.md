@@ -5,17 +5,13 @@
 * 6 personnes
 
 ## ingredients
-* 15 pommes golden
-* 100 gr de sucre en poudre
+* 15 [pommes] golden
+* 100 gr de [sucre] en poudre
 * 5 cl d'eau
-* 50 gr beurre mou
+* 50 gr [beurre] mou
 
 Pour la pâte brisée
-* 200 gr de farine
-* 1 jaune d'oeuf
-* 5 cl d'eau
-* 2 pincées de sel
-* 100 gr de beurre mou
+* https://tfontaine.com/recettes/recipe.php#p%C3%A2te-bris%C3%A9e
 
 ## steps  
 1. Commencez par préparer la pâte brisée, réservez la 1h au frais (Optionnel)

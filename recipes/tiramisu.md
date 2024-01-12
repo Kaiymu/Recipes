@@ -5,13 +5,13 @@
 * 8 parts
 
 ## ingredients
-* 500 gr de mascarpone
-* 6 oeufs
-* 100 gr de sucre 
-* 50 boudoirs
-* 15 cl de café
-* Du cacao 
-* (20 cl Amaretto)
+* 500 gr de [mascarpone]
+* 6 [oeufs]
+* 100 gr de [sucre] 
+* 50 [boudoirs]
+* 15 cl de [café]
+* [Cacao] 
+* (20 cl [Amaretto])
 
 ## steps  
 1. Faires du café

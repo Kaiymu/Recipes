@@ -44,3 +44,12 @@ function getDomain(url) {
   return a.hostname;
 }
 
+function toggleClass(classToToggle, element) {
+  if ($(element).hasClass(classToToggle)) {
+    $(element).removeClass(classToToggle);
+  }
+  else {
+    $('.' + classToToggle).removeClass(classToToggle);
+    $(element).addClass(classToToggle);
+  }
+}

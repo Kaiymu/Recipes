@@ -6,19 +6,19 @@
 
 ## ingredients
 Pour les légumes
-* 500 gr de champignons (Paris ou Shitaké)
-* 1/4 de potimarron (400 gr)
-* 1 oignon
-* 2 gousses d'ail
+* 500 gr de [champignons] (Paris ou Shitaké)
+* 1/4 de [potimarron] (400 gr)
+* 1 [oignon]
+* 2 gousses d'[ail]
 * (Huile de cuisson, type tournesol)
 
 Appareil à quiche
-* 2 oeufs
-* 40 cl de lait
-* (Muscade)
+* 2 [oeufs]
+* 40 cl de [lait]
+* ([Muscade])
 
 Pâte brisée
-* Voir la recette sur la page d'accueil
+* https://tfontaine.com/recettes/recipe.php#p%C3%A2te-bris%C3%A9e
 
 ## steps  
 1. Préchauffer le four à [180°]

@@ -6,7 +6,7 @@ $(document).ready(function () {
     let listOfRecipes = '';
     let listOfLetters = '';
     let prevLetter = '';
-    const map1 = new Map();
+    const ingredientsToRecipe = new Map();
 
     // create list of recipes
     for (let i in files) {
@@ -27,7 +27,6 @@ $(document).ready(function () {
             let arraySplit = text.split("##");
             let ingredientsList = arraySplit[2];
             let ingredients = ingredientsList.split("*");
-            // Faut pas créer uin nouveau tableau ?
             ingredients.forEach((ingredient) => ParseIngredients(name, ingredient));
         })
         .catch((e) => console.error(e));
@@ -45,45 +44,37 @@ $(document).ready(function () {
 
         listOfRecipes += '<a id="' + name + '" href="recipe.php#' + anchor + '">' + name + '</a></li>';
         prevLetter = firstLetter;
-    }
+    }    
 
-    setTimeout(() => {
-        let test = "";
-        map1.forEach((values, keys) => {
-            //test += '<a href="recipe.php#' + keys + '">' + keys + '</a></li>';
-
-        })
-        //$('#navigation').html(test);
-    }, (1000));
-
-    $("#recipeSearch").on("keyup", function() {
-        let searchValue = $(this).val().toLowerCase().trim();
-
-        // Hidding all of the element
-        map1.forEach((values, keys) => {
-            let currentElement = document.getElementById(values);
-                if(currentElement) {
-                    currentElement.parentElement.style.display = "none";
-            }
-        })
-
-        // Displaying only the recipies found
-        // Would be better to add a CSS class to it, and not search twice into the dictionnary
-        let foundRecipe = map1.get(searchValue);
-        if(foundRecipe) {
-            for(let i = 0; i < foundRecipe.length; i++) {
-                    let foundElement = document.getElementById(foundRecipe[i]);
-                    if(foundElement)
-                        foundElement.parentElement.style.display = "block"
-                }
-            }
-      });
+    searchInput();
 
     // add recipes to page...
     $('#toc ul').html(listOfRecipes);
 
     // ...and the list of first-letters for quick nav
     $('#navigation').html(listOfLetters);
+
+    function searchInput() {
+        $("#recipeSearch").on("keyup", function() {
+            let searchValue = $(this).val().toLowerCase().trim();
+    
+            // Removing the class from the already existing element.
+            $('.recipeFound').each((index, element) => {
+                element.classList.remove('recipeFound');
+            });
+    
+            // Displaying only the recipies found
+            let foundRecipe = ingredientsToRecipe.get(searchValue);
+            if(foundRecipe) {
+                for(let i = 0; i < foundRecipe.length; i++) {
+                        let foundElement = document.getElementById(foundRecipe[i]);
+                        if(foundElement) {
+                            foundElement.classList.add("recipeFound");
+                        }
+                    }
+                }
+          });
+    }
 
     function ParseIngredients(recipe, ingredient) {
         // Getting all recipe with parenthesis
@@ -94,18 +85,24 @@ $(document).ready(function () {
                 ingredientParsed = ingredientParsed.replace("[", '');
                 ingredientParsed = ingredientParsed.replace("]", '');
                 ingredientParsed = ingredientParsed.toLowerCase(); 
+                
+                // Checking if the word is un plural and removing it
+                if(ingredientParsed.slice(-1) == "s") {
+                    ingredientParsed = ingredientParsed.slice(0, -1);
+                } 
 
                 let recipeList = [];
 
-                recipeList = map1.get(ingredientParsed);
+                recipeList = ingredientsToRecipe.get(ingredientParsed);
 
+                // If the array is null, create it.
                 if(!recipeList) {
                     recipeList = [];
                 }
                 
                 recipeList.push(recipe);
             
-            map1.set(ingredientParsed, recipeList);
+                ingredientsToRecipe.set(ingredientParsed, recipeList);
             }
     }
 });

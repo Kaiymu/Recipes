@@ -5,31 +5,31 @@
 * 12 parts
 
 ## ingredients
-* 100 gr de gruyères rapé OU parmesan 
-* Feuille de lasagnes (Fraiches ou du commerce)
+* 100 gr de [gruyères] rapé OU [parmesan] 
+* Feuille de [lasagnes] (Fraiches ou du commerce)
 
 Pour la béchamel 
-* 40 g de beurre
-* 40 g de farine
-* 60 cl de lait
-* Sel
+* 40 g de [beurre]
+* 40 g de [farine]
+* 60 cl de [lait]
+* [Sel]
 
 Pour le concassé 
-* 5 tomates
-* 1 oignon
-* 3 gousses d'ail
-* 2 cuil à soupe d'huile d'olive
-* 2 branches de thym (Ou autre herbe)
-* Sel
-* (3 pincées de piment en poudre)
+* 5 [tomates]
+* 1 [oignon]
+* 3 gousses d'[ail]
+* 2 cuil à soupe d'[huile d'olive]
+* 2 branches de [thym] (Ou autre herbe)
+* [Sel]
+* (3 pincées de [piment] en poudre)
 
 Pour la farce de viande
-* 1 oignon
-* 2 gousses d'ail
-* 2 cuil à soupe d'huile d'olive
-* 600 gr de boeuf haché 
-* Sel / Poivre
-* (20 cl de fond de boeuf)
+* 1 [oignon]
+* 2 gousses d'[ail]
+* 2 cuil à soupe d'[huile d'olive]
+* 600 gr de [boeuf haché ]
+* [Sel] / [Poivre]
+* (20 cl de [fond de boeuf])
 
 ## steps  
 1. Préparer une béchamel, puis réserver (Je mettrais un lien plus tard)

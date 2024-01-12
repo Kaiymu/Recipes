@@ -293,3 +293,7 @@ hr {
   }
 }
 
+/* Highlighting the found recipe */
+.recipeFound {
+  background-color: #adffec;
+}

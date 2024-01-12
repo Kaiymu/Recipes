@@ -124,13 +124,7 @@ $(document).ready(function () {
 
             // click a step to highlight it
             $('#steps li').click(function () {
-                if ($(this).hasClass('highlight')) {
-                    $(this).removeClass('highlight');
-                }
-                else {
-                    $('.highlight').removeClass('highlight');
-                    $(this).addClass('highlight');
-                }
+                toggleClass('highlight', this);
             });
         },
 

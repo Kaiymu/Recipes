@@ -5,11 +5,11 @@
 * 1 pâte pour 8 parts
 
 ## ingredients
-* 200 gr de farine
-* 1 jaune d'oeuf
+* 200 gr de [farine]
+* 1 jaune d'[oeuf]
 * 5 cl d'eau
-* 2 pincées de sel
-* 100 gr de beurre mou
+* 2 pincées de [sel]
+* 100 gr de [beurre] mou
 
 ## steps  
 1. Mettez la farine dans un cul-de-poule et creusez un puits au centre

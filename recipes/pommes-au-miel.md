@@ -6,12 +6,12 @@
 
 
 ## ingredients
-* 60 gr de miel
-* 6 pommes
-* 60 gr de beurre
-* (Cannelle)
-* (Jus de citron)
-* (Amandes)
+* 60 gr de [miel]
+* 6 [pommes]
+* 60 gr de [beurre]
+* ([Cannell])
+* (Jus de [citron])
+* ([Amandes])
 
 ## steps  
 1. Prechauffer le four à [220°]

@@ -4,15 +4,15 @@
 * 10 minutes de préparation, 30 minutes de cuissons
 
 ## ingredients
-* Des légumes à braisés, qui tiennent en longues cuissons (Fenouil, navet, carottes ...)
-* 25 gr de beurre / Huile d'olive
-* 1 CaC de Miel
-* Herbes (Provences, thym, laurier ...)
-* Sel 
-* Poivre
-* 20 cl de vin blanc OU bouillon OU eau
-* (Le jus de 1 citron)
-* (Fond blanc de poisson)
+* Des légumes à braisés, qui tiennent en longues cuissons ([Fenouil], [navet], [carottes] ...)
+* 25 gr de [beurre] / [Huile d'olive]
+* 1 CaC de [Miel]
+* Herbes ([Provences], [thym], [laurier] ...)
+* [Sel]
+* [Poivre]
+* 20 cl de vin [blanc] OU [bouillon] OU eau
+* (Le jus de 1 [citron])
+* (Fond blanc de [poisson])
 
 ## steps  
 1. Découper les légumes en parts égales, et grossières, l'idée c'est d'avoir des morceau que l'ont peut plaquer sur notre poêle

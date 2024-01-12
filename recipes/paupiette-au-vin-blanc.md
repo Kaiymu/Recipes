@@ -5,15 +5,15 @@
 * Recette pour 4 personnes
 
 ## ingredients
-* 4 paupiettes de porc
-* 20 cl de vin blanc
-* 20 cl de bouillon de volaile OU fond blanc
-* 1 oignon
-* 10 gr de beurre
-* 10 gr de farine
-* Sauges / (Persil)
-* (1 poireau)
-* (Baies roses)
+* 4 [paupiettes de porc]
+* 20 cl de [vin blanc]
+* 20 cl de [bouillon de volaile] OU [fond blanc]
+* 1 [oignon]
+* 10 gr de [beurre]
+* 10 gr de [farine]
+* [Sauges] / ([Persil])
+* (1 [poireau])
+* ([Baies roses])
 
 ## steps  
 1. A feu fort, faire revenir l'oignon (Et le poireau) avec du beurre et un peu de sel, jusqu'à coloration en mélangeant bien

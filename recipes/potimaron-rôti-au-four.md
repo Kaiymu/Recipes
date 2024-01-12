@@ -5,11 +5,11 @@
 * 1 potimmaron / 2 personnes
 
 ## ingredients
-* 1 potimmaron
-* Herbes (Provences / Zaatar ...)
-* Huile d'olive 
-* Sel 
-* Poivre
+* 1 [potimmaron]
+* Herbes ([Provences] / [Zaatar] ...)
+* [Huile d'olive] 
+* [Sel] 
+* [Poivre]
 
 ## steps  
 1. Préchauffer le four à [160°]

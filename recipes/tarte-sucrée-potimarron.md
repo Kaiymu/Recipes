@@ -5,16 +5,16 @@
 * 6 - 8 personnes
 
 ## ingredients
-* 1 potimarron d'1,5kg (avant découpe et épépinage)
-* 1 pâte brisée ou sablée
-* 150 g de sucre
-* 3 cuillères à soupe de maïzena OU 6 de farines
-* 15 cl de lait
-* 2 oeufs
-* 1 petite cuillère à café de cannelle
-* Brisures de noix
+* 1 [potimarron] d'1,5kg (avant découpe et épépinage)
+* 1 [pâte brisée] ou [sablée]
+* 150 g de [sucre]
+* 3 cuillères à soupe de [maïzena] OU 6 de [farines]
+* 15 cl de [lait]
+* 2 [oeufs]
+* 1 petite cuillère à café de [cannelle]
+* Brisures de [noix]
 
-Pâte brisée 
+Pâte brisée
 * https://tfontaine.com/recettes/recipe.php#p%C3%A2te-bris%C3%A9e
 
 ## steps  
