@@ -43,7 +43,7 @@
 			// trim display text for long urls in 'based on' section
 			// ex:           https://www.seriouseats.com/recipes/2012/01/aloo-matar.html
 			// would become: https://www.seriouseats.com
-			let shortenURLs = false;
+			let shortenURLs = true;
 		</script>
 
 		<!-- showdown (markdown parser) -->
@@ -82,7 +82,6 @@
 			<section id="notes"></section>
 			<section id="help"></section>
 			<section id="basedon"></section>
-			<section id="pouet"></section>
 		</div>
 	</body>
 

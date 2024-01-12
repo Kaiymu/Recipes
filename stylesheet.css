@@ -117,6 +117,7 @@ ol li {
   line-height: 1.7em;
   text-align:  center;
 }
+
 #navigation a {
   margin-right: 1.1em;
   color:        rgb(180,180,180);
@@ -129,8 +130,13 @@ ol li {
 a, a:link, a:visited {
   color:            black;
   text-decoration:  none;
-  background-color: transparent;
 }
+
+#ingredients a {
+  background-color: rgba(108, 105, 119, 0.5);
+  font-weight: lighter;
+}
+
 a:active, a:hover {
   color:            black !important;
   background-color: rgba(255,255,0, 0.5);

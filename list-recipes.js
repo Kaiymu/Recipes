@@ -2,44 +2,90 @@
 // once document is loaded, load list of markdown files
 // and generate table of contents, plus a quick-nav list
 // at the top
-$(document).ready(function() {
-  let listOfRecipes = '';
-  let listOfLetters = '';
-  let prevLetter = '';
-  
-  // create list of recipes
-  for (let i in files) {
-    let url = files[i];
-    
-    // skip files that start with underscore
-    // (such as the _template.md file)
-    if (url[0] === '_') {
-      continue;
+$(document).ready(function () {
+    let listOfRecipes = '';
+    let listOfLetters = '';
+    let prevLetter = '';
+    const map1 = new Map();
+
+    // create list of recipes
+    for (let i in files) {
+        let url = files[i];
+        fetch("recipes/" + url)
+            .then((res) => res.text())
+            .then((text) => {
+                let arraySplit = text.split("##");
+                let ingredientsList = arraySplit[2];
+                let ingredients = ingredientsList.split("*");
+                // Faut pas créer uin nouveau tableau ?
+                ingredients.forEach((ingredient) => ParseIngredients(url, ingredient));
+            })
+            .catch((e) => console.error(e));
+
+        // skip files that start with underscore
+        // (such as the _template.md file)
+        if (url[0] === '_') {
+            continue;
+        }
+
+        // create anchor and name from url
+        let anchor = url.replace('.md', '');
+        let name = anchor.split('-').join(' ');
+
+        // if the first letter of the recipe hasn't been
+        // seen yet, add to list of letters and put an achor in
+        let firstLetter = name.charAt(0).toUpperCase();
+        if (firstLetter !== prevLetter) {
+            listOfRecipes += '<li id="' + firstLetter + '">';
+            listOfLetters += '<a href="#' + firstLetter + '">' + firstLetter + ' </a>';
+        }
+        else {
+            listOfRecipes += '<li>';
+        }
+
+        listOfRecipes += '<a href="recipe.php#' + anchor + '">' + name + '</a></li>';
+        prevLetter = firstLetter;
     }
 
-    // create anchor and name from url
-    let anchor = url.replace('.md', '');
-    let name = anchor.split('-').join(' ');
+    setTimeout(() => {
+        let test = "";
+        map1.forEach((values, keys) => {
+            console.log(keys)
+            //test += '<a href="recipe.php#' + keys + '">' + keys + '</a></li>';
 
-    // if the first letter of the recipe hasn't been
-    // seen yet, add to list of letters and put an achor in
-    let firstLetter = name.charAt(0).toUpperCase();
-    if (firstLetter !== prevLetter) {
-      listOfRecipes += '<li id="' + firstLetter + '">';
-      listOfLetters += '<a href="#' + firstLetter + '">' + firstLetter + ' </a>';
+        })
+        //$('#navigation').html(test);
+    }, (1000));
+
+    // add recipes to page...
+    $('#toc ul').html(listOfRecipes);
+
+    // ...and the list of first-letters for quick nav
+    $('#navigation').html(listOfLetters);
+
+    function ParseIngredients(recipe, ingredient) {
+        // Getting all recipe with parenthesis
+        ingredientParsed = ingredient.match(/\[(.*?)\]/g);
+
+            if(ingredientParsed) {
+                ingredientParsed = ingredientParsed.toString();
+                ingredientParsed = ingredientParsed.replace("[", '');
+                ingredientParsed = ingredientParsed.replace("]", '');
+                ingredientParsed = ingredientParsed.toLowerCase(); 
+
+                let recipeList = [];
+
+                recipeList = map1.get(ingredientParsed);
+
+                if(!recipeList) {
+                    recipeList = [];
+                }
+                
+                recipeList.push(recipe);
+            
+            map1.set(ingredientParsed, recipeList);
+            }
     }
-    else {
-      listOfRecipes += '<li>';
-    }
-
-    listOfRecipes += '<a href="recipe.php#' + anchor + '">' + name + '</a></li>';
-    prevLetter = firstLetter;
-  }
-
-  // add recipes to page...
-  $('#toc ul').html(listOfRecipes);
-
-  // ...and the list of first-letters for quick nav
-  $('#navigation').html(listOfLetters);
 });
+
 

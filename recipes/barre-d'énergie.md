@@ -5,13 +5,13 @@
 * 12 barres
 
 ## ingredients
-* 200 grammes de cacahuètes (Non salée)
-* 200 grames de flocon d'avoines (Ou similaire)
-* 3 Oeufs
-* Pincé de sel
-* (Miel)
-* (Amandes)
-* (Chocolat)
+* 200 gr de [cacahuètes] (Non salée)
+* 200 gr de [flocon d'avoines] (Ou similaire)
+* 3 [oeufs]
+* Pincé de [sel]
+* ([Miel])
+* ([Amandes])
+* ([Chocolat])
 
 ## steps  
 1. Préchauffer le four à [180°]

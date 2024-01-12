@@ -34,6 +34,3 @@ Pour la pâte brisée
 
 ## based on  
 * Recette de Philippe Etchebest : https://www.youtube.com/watch?v=Al7W2wpNyb4
-
-## pouet
-* #Test ?

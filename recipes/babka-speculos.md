@@ -5,14 +5,14 @@
 * 8 parts
 
 ## ingredients
-* 200gr warm milk (max 32/35°c)
-* 25gr fresh yeast
-* 500gr of flour
-* 50gr sugar
-* 1 pinch of salt
-* 1 egg
-* 90gr melted butter
-* Speculoos spread
+* 200gr warm [lait] (max 32/35°c)
+* 25gr fresh [levure]
+* 500gr of [farine]
+* 50gr [sucre]
+* 1 pinch of [sel]
+* 1 [oeuf]
+* 90gr melted [beurre]
+* [Speculoos] spread
 
 ## steps  
 1. Crumble the yeast into the warm milk (do not exceed 32°c), stir, cover and let stand for [15 min].

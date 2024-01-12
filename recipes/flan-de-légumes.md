@@ -5,20 +5,20 @@
 * 8 parts
 
 ## ingredients
-* 600 gr de courgettes 
-* 400 gr de tomates
-* 200 gr de carottes 
+* 600 gr de [courgettes] 
+* 400 gr de [tomates]
+* 200 gr de [carottes]
 * (Optionel) Légumes de saison, en gros. 
-* 2 gousses d'ail
-* 2 branches de thym
-* 10 gr de beurre
-* 3 CaS d'huile d'olive
-* 6 pincées de piment d'espelette 
-* 4 oeufs
-* 30 cl de crème liquide
-* 20 cl de lait
-* Sel
-* Poivre
+* 2 gousses d'[ail]
+* 2 branches de [thym]
+* 10 gr de [beurre]
+* 3 CaS d'huile d'[olive]
+* 6 pincées de piment d'[espelette]
+* 4 [oeufs]
+* 30 cl de [crème liquide]
+* 20 cl de [lait]
+* [Sel]
+* [Poivre]
 
 ## steps  
 1. Préchaussez le four à [180° (th 6)]

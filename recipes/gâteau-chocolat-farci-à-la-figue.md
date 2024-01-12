@@ -6,19 +6,19 @@
 
 ## ingredients
 Pour les légumes
-* 4 oeufs
-* 100 gr de sucre
-* 175 gr de farine
-* 175 ml de lait
-* 5 gr de levure
-* 50 gr de cacao 
+* 4 [oeufs]
+* 100 gr de [sucre]
+* 175 gr de [farine]
+* 175 ml de [lait]
+* 5 gr de [levure]
+* 50 gr de [cacao]
 
 Coulis de figue
-* 500 gr de figues
-* 20 gr de sucre
-* 1 citron
-* Quelques cl d'eau
-* (Quelques branches de thym)
+* 500 gr de [figues]
+* 20 gr de [sucre]
+* 1 [citron]
+* Quelques cl d'[eau]
+* (Quelques branches de [thym])
 
 ## steps  
 1. Préchauffer le four à [180°]

@@ -14,8 +14,7 @@
 * 1 petite cuillère à café de cannelle
 * Brisures de noix
 
-Pour la pâte brisée
-* Voir la recette sur la page d'accueil
+Pâte brisée 
 * https://tfontaine.com/recettes/recipe.php#p%C3%A2te-bris%C3%A9e
 
 ## steps  
