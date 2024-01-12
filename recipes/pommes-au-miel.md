@@ -9,7 +9,7 @@
 * 60 gr de [miel]
 * 6 [pommes]
 * 60 gr de [beurre]
-* ([Cannell])
+* ([Cannelle])
 * (Jus de [citron])
 * ([Amandes])
 
