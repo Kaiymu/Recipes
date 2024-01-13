@@ -53,3 +53,17 @@ function toggleClass(classToToggle, element) {
     $(element).addClass(classToToggle);
   }
 }
+
+// Extract a word contained between 2 characters
+// https://stackoverflow.com/questions/64112955/get-multiple-substring-between-two-characters-javascript
+function extractWords(str) {
+  const words = [];
+  for (let i = 0; i < str.length; i++) {
+      if (str.charAt(i) === '[') {
+          const stopIndex = str.indexOf(']', i);
+          if (stopIndex !== -1)
+              words.push(str.substring(i + 1, stopIndex));
+      }
+  }
+  return words;
+}

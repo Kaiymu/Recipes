@@ -26,7 +26,8 @@ $(document).ready(function () {
         .then((text) => {
             let arraySplit = text.split("##");
             let ingredientsList = arraySplit[2];
-            let ingredients = ingredientsList.split("*");
+            let ingredients = extractWords(ingredientsList)
+
             ingredients.forEach((ingredient) => ParseIngredients(name, ingredient));
         })
         .catch((e) => console.error(e));
@@ -77,33 +78,26 @@ $(document).ready(function () {
     }
 
     function ParseIngredients(recipe, ingredient) {
-        // Getting all recipe with parenthesis
-        ingredientParsed = ingredient.match(/\[(.*?)\]/g);
+        let ingredientParsed = ingredient.toString();
+        ingredientParsed = ingredientParsed.toLowerCase(); 
+    
+        // Checking if the word is un plural and removing it
+        if(ingredientParsed.slice(-1) == "s") {
+            ingredientParsed = ingredientParsed.slice(0, -1);
+        } 
 
-            if(ingredientParsed) {
-                ingredientParsed = ingredientParsed.toString();
-                ingredientParsed = ingredientParsed.replace("[", '');
-                ingredientParsed = ingredientParsed.replace("]", '');
-                ingredientParsed = ingredientParsed.toLowerCase(); 
-                
-                // Checking if the word is un plural and removing it
-                if(ingredientParsed.slice(-1) == "s") {
-                    ingredientParsed = ingredientParsed.slice(0, -1);
-                } 
+        let recipeList = [];
 
-                let recipeList = [];
+        recipeList = ingredientsToRecipe.get(ingredientParsed);
 
-                recipeList = ingredientsToRecipe.get(ingredientParsed);
-
-                // If the array is null, create it.
-                if(!recipeList) {
-                    recipeList = [];
-                }
-                
-                recipeList.push(recipe);
-            
-                ingredientsToRecipe.set(ingredientParsed, recipeList);
-            }
+        // If the array is null, create it.
+        if(!recipeList) {
+            recipeList = [];
+        }
+        
+        recipeList.push(recipe);
+    
+        ingredientsToRecipe.set(ingredientParsed, recipeList);
     }
 });
 
