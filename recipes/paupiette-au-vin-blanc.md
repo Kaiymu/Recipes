@@ -31,3 +31,7 @@
 
 ## based on  
 * Une recette de cuisine actuel avec ajout de persil / poireau https://www.cuisineactuelle.fr/recettes/paupiette-de-porc-314554
+
+## tags
+* [Plat]
+* [Copieux]

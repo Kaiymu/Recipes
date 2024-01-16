@@ -32,3 +32,6 @@
 ## based on  
 * Le chef Etchebest, comme d'habitude https://www.youtube.com/watch?v=y6y-oJkUcPM
 * Et de cette recette https://epicesdecru.com/recettes/navets-brais%C3%A9s-comme-au-cachemire
+
+## tags
+* [Plat]

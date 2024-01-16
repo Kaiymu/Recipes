@@ -25,8 +25,19 @@ $(document).ready(function () {
         .then((res) => res.text())
         .then((text) => {
             let arraySplit = text.split("##");
-            let ingredientsList = arraySplit[2];
-            let tagList =  arraySplit[6];
+            let ingredientsList = "";
+            let tagList = String.empt;
+
+            arraySplit.forEach((word) => {
+                if(word.includes("ingredients")) {
+                    ingredientsList = word;
+                }
+
+                if(word.includes("tags")) {
+                    tagList =  word
+                }
+            });
+
             let mergedArray = ingredientsList.concat(tagList);
             let ingredients = extractWords(mergedArray)
 

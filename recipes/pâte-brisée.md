@@ -20,3 +20,6 @@
 
 ## based on  
 * Le livre du chef Etchebest :)
+
+## tags
+* [Pâte]

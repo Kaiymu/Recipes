@@ -38,3 +38,7 @@ Pâte brisée
 
 ## based on  
 * https://www.youtube.com/watch?v=aZ0zGpfBc3M
+
+## tags
+* [Entrée]
+* [Plat]

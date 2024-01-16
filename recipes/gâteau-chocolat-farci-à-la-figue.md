@@ -45,3 +45,6 @@ Coulis de figue
 ## based on  
 * Un mix de cette recette https://cookpad.com/fr/recettes/16972284-torta-versata-cacao-marron
 * Et cette recette https://www.undejeunerdesoleil.com/2019/11/gateau-farci-creme-marrons-tout-en-un.html
+
+## tags
+* [Dessert]

@@ -33,3 +33,7 @@ Pâte brisée
 
 ## based on  
 * https://odelices.ouest-france.fr/recette/pumpkin-pie-tarte-sucree-au-potimarron-r2056/
+
+## tags
+* [Goûter]
+* [Dessert]

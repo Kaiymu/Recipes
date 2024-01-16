@@ -33,5 +33,7 @@
 ## based on  
 * Merci Youtube ! https://www.youtube.com/watch?v=EWeIMbBzBhY&t=195s
 
-## tag
+## tags
+* [Energisant]
+* [Sport]
 * [Goûter]

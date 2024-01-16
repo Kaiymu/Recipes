@@ -26,3 +26,7 @@
 
 ## based on  
 * https://www.cuisineactuelle.fr/recettes/pommes-au-four-au-miel-200249
+
+## tags
+* [Dessert]
+* [Goûter]

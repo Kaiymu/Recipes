@@ -30,3 +30,7 @@
 
 ## based on  
 * https://www.cuisineaz.com/recettes/banana-bread-80164.aspx
+
+## tags
+* [Dessert]
+* [Goûter]

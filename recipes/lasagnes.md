@@ -54,3 +54,6 @@ Pour la farce de viande
 
 ## based on  
 * Merci chef Etchbest . https://www.youtube.com/watch?v=gmEBmlY1YEQ
+
+## tags
+* [Plat]

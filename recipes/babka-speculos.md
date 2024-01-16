@@ -32,3 +32,7 @@
 
 ## based on  
 * Colleague that shared the recipe, thanks Laura !
+
+## tags
+* [Goûter]
+* [Dessert]

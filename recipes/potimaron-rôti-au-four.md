@@ -26,3 +26,7 @@
 ## notes  
 * On peut remplacer le potiron par des carottes, pommes de terres, qu'importe. En somme des légumes à cuissons longues. 
 * On peut aussi cuir moins, pour avoir plus de croquants. 
+
+## tags
+* [Entrée]
+* [Plat]
