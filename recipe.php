@@ -6,7 +6,7 @@
 		<!-- basics -->
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-		<link rel="icon" type="image/gif" href="https://tfontaine.com/images/favicon.gif">
+		<link rel="icon" type="image/gif" href="https://tfontaine.com/images/favicon_chef.gif">
 		
 		<!-- font and styles -->
 		<link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,700,700i,900,900i" rel="stylesheet"> 
@@ -25,7 +25,7 @@
 			let helpUrls = [
 			  { label: 'Recherche par image', url: 'https://www.google.com/search?q=' + '<name>' + '&tbm=isch' },
 			  { label: 'Marmiton', url: 'https://www.marmiton.org/recettes/recherche.aspx?aqt=' + '<name>' },
-			  { label: 'Plus de recettes', url: 'https://www.google.com/search?q=' + '<name>' + '+recipe'},
+			  { label: 'Plus de recettes', url: 'https://www.google.com/search?q=' + '<name>' + '+recettes'},
 			];
 
 			// look in a folder called 'images' for an image to display

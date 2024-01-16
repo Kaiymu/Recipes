@@ -1,4 +1,4 @@
-# Sarmale / Choux farcis
+# Sarmale (choux farcis)
 
 ## info  
 * 3h de préparations, 1-2h de cuisson

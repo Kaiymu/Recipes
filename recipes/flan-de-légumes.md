@@ -43,3 +43,4 @@
 ## tags
 * [Entrée]
 * [Plat]
+* [Pique nique]

@@ -57,3 +57,4 @@ Pour la farce de viande
 
 ## tags
 * [Plat]
+* [Pique nique]

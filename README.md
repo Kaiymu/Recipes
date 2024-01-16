@@ -17,6 +17,7 @@ Features:
 * [Recipe format](#recipe-format)
 * [Adding images](#adding-images)
 * [Other options](#other-options)
+* [Search](#search)
 * [Suggestions welcome!](#suggestions-welcome)
 
 
@@ -44,6 +45,9 @@ Optional subheader
 
 ## based on  
 * url to where the recipe came from
+
+## tags 
+* [Main course]
 ```
 
 For example:
@@ -100,6 +104,37 @@ Thanks to a suggestion from @mpember, if you have a `jpg` image with the same fi
 For example: `aloo-matar.md` should have an image called `aloo-matar.jpg` in the `images` folder.
 
 You can also include other images in the recipe using Markdown's image syntax: `![alt text](url)`. You'll probably want to update the stylesheet to size them appropriately.
+
+## SEARCH
+On the recipes list, you can now search using either ingredients or tags, it'll highlight all recipes that includes any of theses elements.
+For French, I automaticly stripped the last "S" of every words to avoid using plurals (Oeufs becomes oeuf)
+
+#### INGREDIENTS
+On the ingredients section, if you put into [] (brackets) any ingredients, it'll be found if you search for that word  
+##### For exemple 
+* 2 [eggs]
+
+If you search egg, it should highlight all recipes includings egg into it.
+
+----
+![alt text](githubImages/exempleIngredients.jpg)
+
+----
+
+### TAGS
+On the .md file of your recipes, you can add also between [] any tags that you want to search for
+It won't be displayed into the recipe page, it's more for you to filter in any recipes that you think should match
+
+##### For exemple 
+* [Main course]
+* [Romanian]
+
+If you type any of theses words into the seach bar, it'll automaticly be highlighted just like seen here
+
+----
+![alt text](githubImages/exempleTag.jpg)
+
+----
 
 
 ## OTHER OPTIONS  

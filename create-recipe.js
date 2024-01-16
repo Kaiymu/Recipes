@@ -64,7 +64,7 @@ $(document).ready(function () {
 
                     // change page title too
                     let elems = $(section);
-                    let pageTitle = elems[0].innerHTML + ' | Recipe Book';
+                    let pageTitle = elems[0].innerHTML + ' | Livre de recettes';
                     $(document).prop('title', pageTitle);
                 }
                 // for all other pages, get id from regex match
