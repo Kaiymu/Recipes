@@ -117,7 +117,7 @@ On the ingredients section, if you put into [] (brackets) any ingredients, it'll
 If you search egg, it should highlight all recipes includings egg into it.
 
 ----
-![alt text](githubImages/exempleIngredients.jpg)
+![Exemple ingredients](githubImages/exempleIngredients.JPG)
 
 ----
 
@@ -132,7 +132,7 @@ It won't be displayed into the recipe page, it's more for you to filter in any r
 If you type any of theses words into the seach bar, it'll automaticly be highlighted just like seen here
 
 ----
-![alt text](githubImages/exempleTag.jpg)
+![Exemple tags](githubImages/exempleTag.jpg)
 
 ----
 
