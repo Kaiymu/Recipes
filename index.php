@@ -27,7 +27,7 @@
 			<!-- table of contents -->
 			<section id="toc">
 				<h1 id="mainTitle">Recipe Book</h1>
-				<input id="recipeSearch" type="text" placeholder="Search..">
+				<input id="recipeSearch" type="text" placeholder="Recherche...">
 				<p id="navigation"></p>
 
 				<ul> <!-- your recipes will go here --> </ul>

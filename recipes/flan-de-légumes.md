@@ -12,7 +12,7 @@
 * 2 gousses d'[ail]
 * 2 branches de [thym]
 * 10 gr de [beurre]
-* 3 CaS d'huile d'[olive]
+* 3 CaS d'[huile d'olive]
 * 6 pincées de piment d'[espelette]
 * 4 [oeufs]
 * 30 cl de [crème liquide]
