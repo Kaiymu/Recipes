@@ -26,7 +26,9 @@ $(document).ready(function () {
         .then((text) => {
             let arraySplit = text.split("##");
             let ingredientsList = arraySplit[2];
-            let ingredients = extractWords(ingredientsList)
+            let tagList =  arraySplit[6];
+            let mergedArray = ingredientsList.concat(tagList);
+            let ingredients = extractWords(mergedArray)
 
             ingredients.forEach((ingredient) => ParseIngredients(name, ingredient));
         })
