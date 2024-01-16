@@ -32,10 +32,10 @@ Coulis de figue
 8. Ajoutez-y le lait et continuer à battre
 9. Ajoutez-y progressivement la farine et le chocolat fondue, pour éviter les grumeaux. Et continuer à battre jusqu'à obtenir un mélange homogène
 10. Beurrer un moule à gâteau
-11. Ajouter y 1/3 de votre préparation à gâteau, et enfournez pour 10 - 15 minutes
+11. Ajouter y 1/3 de votre préparation à gâteau, et enfournez pour [10 - 15 minutes]
 12. Sortez le du four et mettez au centre votre coulis de figue, en laissant bien les bords du moule sans préparation (1 cm par exemple)
 13. Sur les bords du plats, mettez le reste du gâteau au chocolat, en recouvrant votre préparation aux figues
-14. Enfournez pour 25 minutes
+14. Enfournez pour [25 minutes]
 
 ## notes  
 * L'idée de se gâteau est en deux cuissons, pour y insérer un appareil au centre, donc vous pouvez globalement penser à n'importe quel gâteau que vous faîtes

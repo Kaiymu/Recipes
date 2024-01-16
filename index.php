@@ -36,8 +36,8 @@
 			<!-- footer -->
 			<section id="footer">
 				<ul>
-					<li>A super minimal recipe website by <a href="http://www.jeffreythompson.org">Jeff Thompson</a></li>
-					<li><a href="https://github.com/jeffThompson/Recipes">Source code
+					<li>Forked from <a href="http://www.jeffreythompson.org">Jeff Thompson</a></li>
+					<li><a href="https://github.com/Kaiymu/Recipes">Source code
 					
 					<!-- external link icon -->
 					<!-- via: https://fontawesome.com/icons/external-link-alt -->
