@@ -132,7 +132,7 @@ It won't be displayed into the recipe page, it's more for you to filter in any r
 If you type any of theses words into the seach bar, it'll automaticly be highlighted just like seen here
 
 ----
-![Exemple tags](githubImages/exempleTag.jpg)
+![Exemple tags](githubImages/exempleTag.JPG)
 
 ----
 
