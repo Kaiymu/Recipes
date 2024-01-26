@@ -25,7 +25,7 @@ Pâte brisée
 1. Préchauffer le four à [180°]
 2. Découper vos légumes en cubes égaux
 3. Faîtes les revenir à la poêle à feu moyen - vif pendant 15 minutes (Ils doivent resté croquant mais commencer à ramalor)
-3. Pedant la cuisson, préparer l'appareil à quiche
+3. Pendant la cuisson, préparer l'appareil à quiche
 4. Mélanger l'oeuf et le lait ensemble et assassonnez de ce qui vous plaît (Herbes, épices, aromates, sel / poivre ...)
 5. Egoutter les légumes et les mélanger à son appareil
 6. Beurrez son moule à tarte

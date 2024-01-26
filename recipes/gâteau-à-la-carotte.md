@@ -13,7 +13,7 @@
 * 4 [oeufs]
 * 2 CàC de [cannelle]
 * 1 CàC de [muscade]
-* 1 CàC de [gimgembre]
+* 1 CàC de [gingembre]
 * 100 gr de [noix] concassées
 
 ## steps  
@@ -28,12 +28,12 @@
 9. Réserver et servir 
 
 ## notes
-* Concernant les noix, vous pouvez vous faire plaisir, cela peut-être pécan, amandes, noix ... 
+* Concernant les noix, vous pouvez vous faire plaisir, cela peut-être pécan, amandes, noisettes, noix ... 
 * Je ne mets pas de glacace, je trouve que ça fais trop.
 
 ## based on  
-* https://www.marmiton.org/recettes/recette_veritable-carrot-cake-recette-usa_83584.aspx 
 * https://www.lesfruitsetlegumesfrais.com/en-cuisine/recettes/carotte-cake-au-miel-et-vanille-caramel-au-beurre-sale - Faudra essayer
+* http://tinyurl.com/murb853t
 
 ## tags
 * [Dessert]

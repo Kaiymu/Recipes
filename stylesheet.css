@@ -69,9 +69,13 @@ p::first-letter, #ingredients li::first-letter, #steps li::first-letter, #notes 
   text-transform: uppercase;
 }
 #ingredients p, #steps p, #notes p, #basedon p {
-  font-weight: 700;
   margin:      1.3em 0 0.6em 0;
 }
+
+#ingredients p {
+  background-color: #bfeadf;
+}
+
 #toc li {
   text-transform: capitalize;
 }
@@ -141,7 +145,7 @@ a, a:link, a:visited {
 }
 
 #ingredients a {
-  background-color: rgba(108, 105, 119, 0.5);
+  text-decoration: underline;
   font-weight: lighter;
 }
 
@@ -175,7 +179,12 @@ a:active, a:hover {
   font-style: italic;
 }
 
-.paren-highlight{
+.paren-highlight {
+  color:      rgb(70, 62, 62);
+  font-weight: bold;
+}
+
+.ingredients-highlight{
   color:      rgb(70, 62, 62);
   font-weight: bold;
 }
