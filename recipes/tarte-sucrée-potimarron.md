@@ -37,3 +37,4 @@ Pâte brisée
 ## tags
 * [Goûter]
 * [Dessert]
+* [Végétarien]

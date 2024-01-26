@@ -39,3 +39,4 @@
 
 ## tags
 * [Dessert]
+* [Végétarien]

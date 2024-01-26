@@ -37,3 +37,4 @@
 * [Energisant]
 * [Sport]
 * [Goûter]
+* [Végétarien]

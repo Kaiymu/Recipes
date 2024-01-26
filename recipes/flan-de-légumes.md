@@ -44,3 +44,4 @@
 * [Entrée]
 * [Plat]
 * [Pique nique]
+* [Végétarien]

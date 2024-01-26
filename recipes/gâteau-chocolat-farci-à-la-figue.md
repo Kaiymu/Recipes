@@ -48,3 +48,4 @@ Coulis de figue
 
 ## tags
 * [Dessert]
+* [Végétarien]

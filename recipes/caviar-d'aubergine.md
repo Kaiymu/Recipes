@@ -31,3 +31,4 @@
 * [Apéritif]
 * [Froid]
 * [Roumain]
+* [Végétarien]

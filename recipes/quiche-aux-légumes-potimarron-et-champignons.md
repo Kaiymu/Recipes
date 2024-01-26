@@ -11,6 +11,7 @@ Pour les légumes
 * 1 [oignon]
 * 2 gousses d'[ail]
 * (Huile de cuisson, type tournesol)
+* 1 [pâte brisée]
 
 Appareil à quiche
 * 2 [oeufs]
@@ -43,3 +44,4 @@ Pâte brisée
 * [Entrée]
 * [Plat]
 * [Pique nique]
+* [Végétarien]

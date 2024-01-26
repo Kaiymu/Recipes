@@ -32,3 +32,4 @@
 ## tags
 * [Plat]
 * [Accompagnement]
+* [Végétarien]

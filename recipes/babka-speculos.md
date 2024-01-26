@@ -36,3 +36,4 @@
 ## tags
 * [Goûter]
 * [Dessert]
+* [Végétarien]

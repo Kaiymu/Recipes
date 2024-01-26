@@ -35,3 +35,4 @@
 * [Dessert]
 * [Goûter]
 * [Pique nique]
+* [Végétarien]

@@ -9,6 +9,7 @@
 * 100 gr de [sucre] en poudre
 * 5 cl d'eau
 * 50 gr [beurre] mou
+* 1 [pâte brisée]
 
 Pour la pâte brisée
 * https://tfontaine.com/recettes/recipe.php#p%C3%A2te-bris%C3%A9e
@@ -33,3 +34,4 @@ Pour la pâte brisée
 
 ## tags
 * [Dessert]
+* [Végétarien]

@@ -35,3 +35,4 @@
 ## tags
 * [Plat]
 * [Copieux]
+* [Viande]
