@@ -42,6 +42,7 @@ $(document).ready(function () {
             let ingredients = extractWords(mergedArray)
 
             ingredients.forEach((ingredient) => ParseIngredients(name, ingredient));
+            SearchInputFromURL();
         })
         .catch((e) => console.error(e));
 
@@ -100,15 +101,16 @@ $(document).ready(function () {
         });
     }
 
-    setTimeout(function() { 
-        let url = new URL(window.location); // or construct from window.location
+    function SearchInputFromURL() { 
+        let url = new URL(window.location);
 
        let params = new URLSearchParams(url.search.slice(1));
 
        if(params.get('ingredients') !== null) {
            let foundIngredient = params.get('ingredients');
            SearchInput(foundIngredient);
-       } }, 1000);
+       }
+    }
 
 
     function ParseIngredients(recipe, ingredient) {
