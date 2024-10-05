@@ -7,7 +7,7 @@
 ## ingredients
 * 6 [aubergines]
 * 1 [oignon]
-* 50 - 60 ml d'[huile] neutre (Tournesol)
+* 50 - 60 ml d'[huile de tournesol]
 * 2 [tomates]
 * Sel
 

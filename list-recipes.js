@@ -60,7 +60,7 @@ $(document).ready(function () {
         prevLetter = firstLetter;
     }    
 
-    searchInput();
+    BindSearchToKey();
 
     // add recipes to page...
     $('#toc ul').html(listOfRecipes);
@@ -68,37 +68,53 @@ $(document).ready(function () {
     // ...and the list of first-letters for quick nav
     $('#navigation').html(listOfLetters);
 
-    function searchInput() {
+    function BindSearchToKey() {
         $("#recipeSearch").on("keyup", function() {
             let searchValue = $(this).val().toLowerCase().trim();
-    
-            // Removing the class from the already existing element.
-            $('.recipeFound').each((index, element) => {
-                element.classList.remove('recipeFound');
-            });
-    
-            // Displaying only the recipies found
-            let foundRecipe = ingredientsToRecipe.get(searchValue);
-            if(foundRecipe) {
-                for(let i = 0; i < foundRecipe.length; i++) {
-                        let foundElement = document.getElementById(foundRecipe[i]);
-                        if(foundElement) {
-                            foundElement.classList.add("recipeFound");
-                        }
+            SearchInput(searchValue);
+        });
+    }
+
+    function SearchInput(input) {
+        // Removing the class from the already existing element.
+        $('.recipeFound').each((index, element) => {
+            element.classList.remove('recipeFound');
+        });
+
+        
+        if(input.length == 0) {
+            return;
+        }
+
+        // Displaying only the recipies found
+        ingredientsToRecipe.forEach((value, key, map) => {
+            if(key.includes(input)) {
+                for(let i = 0; i < value.length; i++) {
+                    let foundElement = document.getElementById(value[i]);
+                    if(foundElement) {
+                        foundElement.classList.add("recipeFound");
                     }
                 }
-          });
+            
+            }
+        });
     }
+
+    setTimeout(function() { 
+        let url = new URL(window.location); // or construct from window.location
+
+       let params = new URLSearchParams(url.search.slice(1));
+
+       if(params.get('ingredients') !== null) {
+           let foundIngredient = params.get('ingredients');
+           SearchInput(foundIngredient);
+       } }, 1000);
+
 
     function ParseIngredients(recipe, ingredient) {
         let ingredientParsed = ingredient.toString();
         ingredientParsed = ingredientParsed.toLowerCase(); 
-    
-        // Checking if the word is un plural and removing it
-        if(ingredientParsed.slice(-1) == "s") {
-            ingredientParsed = ingredientParsed.slice(0, -1);
-        } 
-
+        
         let recipeList = [];
 
         recipeList = ingredientsToRecipe.get(ingredientParsed);

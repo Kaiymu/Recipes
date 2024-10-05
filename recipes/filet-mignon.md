@@ -9,7 +9,7 @@
 * 2 CàC de [sel]
 * 1 CàC de [poivre] OU [piment] doux
 * 1 CàS d'[herbes de provences]
-* 3 CàS d'huile de [tournesol]
+* 3 CàS d'[huile de tournesol]
 * 1 - 2 gousses d'[ail] écrasé
 * 30 cl de [vins rosés] ou [bière]
 
