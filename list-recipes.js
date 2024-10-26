@@ -109,6 +109,8 @@ $(document).ready(function () {
        if(params.get('ingredients') !== null) {
            let foundIngredient = params.get('ingredients');
            SearchInput(foundIngredient);
+            // TODO auto fill input field from val here
+          //$("#recipeSearch").val(foundIngredient);
        }
     }
 

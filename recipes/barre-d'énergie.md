@@ -38,3 +38,4 @@
 * [Sport]
 * [Goûter]
 * [Végétarien]
+* [Pique nique]

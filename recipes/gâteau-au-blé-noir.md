@@ -1,7 +1,7 @@
 # Gâteau au blé noir
 
 ## info  
-* 20 minutes de préparation, 40 minutes de cuisson
+* 20 minutes de préparation, 25 minutes de cuisson
 * 8 parts
 
 ## ingredients
@@ -20,7 +20,7 @@
 5. Mélanger la farine et les graines de sarrasin dans la préparation
 6. Beurrer un moule à gâteau 
 7. Ajouter la préparation dans le moule 
-8. Enfournez pour [35 à 45] minutes
+8. Enfournez pour [25 à 30] minutes
 9. Laisser reposer et déguster à température ambiante
 
 ## notes
